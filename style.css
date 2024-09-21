@@ -1,0 +1,109 @@
+/* Selector universal es * */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Lomejorcito;
+    src: url(font/Rows\ of\ Sunflowers.ttf);
+}
+html{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Lomejorcito;
+    font-size: 20px;
+}
+h1{
+    font-size: 1.55rem;
+}
+
+header{
+    background-color: #c9e2e0;
+    display: flex;
+    align-items: center; /* Aineación horizontal */
+    justify-content: center; /* Alineación vertical */
+}
+img{
+    width: 100%;
+}
+.logo  {
+    width: 120px;
+    padding: 15px;
+}
+.logo img{
+    border-radius: 50%;
+    border: 2px solid rgb(228, 129, 146);
+}
+nav, footer{
+    background-color: #ffffff ;
+    padding: 15px;
+}
+nav a{
+    background-color: white;
+    color: #d5c9e2;
+    padding: 6px 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 7px 7px rgb(186, 226, 162);
+    border-radius: 15px;
+}
+nav a:hover{
+    background-color: #67d5518b;
+    color:rgb(255, 255, 255) ;
+}
+main{
+   /*  background-color:  #c9e2e0; */
+    min-height: 100vh;
+    background-image: url(images/fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   /*  background: linear-gradient(to right, rgb(160, 160, 207), rgb(229, 176, 185)); */
+   padding: 30px 0;
+    
+}
+main p{
+    color: white;
+}
+main h2{
+    color: purple;
+}
+.cuadro-px{
+    width: 500px;
+    height: 330px;
+    padding: 18px;
+    margin: 25px auto;
+    background-color: rgba(213, 201, 226, 0.1);
+    border: 2px solid blueviolet;
+}
+.cuadro-rem{
+    width: 31.25rem;
+    height: 20.625rem;
+    padding: 1.125rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(213, 201, 226, 0.1);
+    border: .125rem solid blueviolet;
+}
+
+.em{
+    font-size: 18px;
+    
+}
+.cuadro-em{
+    width: 31.25em;
+    height: 20.625em;
+    padding: 1.125em;
+    margin: 1.5625em auto;
+    background-color: rgba(213, 201, 226, 0.1);
+    border: .125em solid blueviolet;
+}
+.columnas{
+    display: flex;
+    gap: 3%;
+    align-items: end;
+    justify-content: center;
+}
+.columnas .dos{
+    width: 29%;
+    
+}
